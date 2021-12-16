@@ -33,6 +33,14 @@
     {
       "position": [
         0,
+        -1,
+        -10
+      ],
+      "start_url": "https://webaverse.github.io/silk-fountain-trees/index.js"
+    },
+    {
+      "position": [
+        0,
         0,
         0
       ],
