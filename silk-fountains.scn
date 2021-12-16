@@ -41,10 +41,12 @@
     {
       "position": [
         0,
-        0,
+        -15,
         0
       ],
       "start_url": "https://webaverse.github.io/silk-fountains-terrain/index.js"
     }
   ]
 }
+
+https://tids.github.io/webaverse-silk-fountains-scene/silk-fountains.scn
