@@ -1,10 +1,18 @@
 {
   "objects": [
     {
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [10.0, 4.2149, -213.52 ],
+        "quaternion": [0, 0.7071,0, 0.7071]
+      }
+    },
+
+    {
       "type": "application/light",
       "content": {
         "lightType": "ambient",
-        "args": [[255, 255, 255], 0.5]
+        "args": [[255, 255, 255], 1]
       }
     },
     {
@@ -33,19 +41,35 @@
     {
       "position": [
         0,
-        -1,
-        -10
+        0,
+        0
       ],
-      "start_url": "https://webaverse.github.io/silk-fountains-trees/index.js"
+      "start_url": "https://webaverse.github.io/silk-fountain-trees/index.js"
+    },
+    
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/silk-fountains-ground/index.js"
     },
     {
       "position": [
         0,
-        -15,
+        0,
         0
       ],
-      "start_url": "https://webaverse.github.io/silk-fountains-terrain/index.js"
+      "start_url": "https://webaverse.github.io/silk-fountains-street/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        -500
+      ],
+      "start_url": "https://webaverse.github.io/silk-fountains-great-filter/index.js"
     }
   ]
 }
-
