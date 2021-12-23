@@ -3,49 +3,69 @@
     {
       "type": "application/spawnpoint",
       "content": {
-        "position": [10.0, 5.2149, -213.52 ],
-        "quaternion": [0, 0.7071,0, 0.7071]
+        "position": [10, 5.214, -213.5 ],
+        "quaternion": [0, 0.0,0, 0.0]
       }
     },
 
-     {
+    {
       "type": "application/light",
       "content": {
         "lightType": "ambient",
-        "args": [[255, 255, 255], 0.5]
+        "args": [[255, 255, 255], 0]
       }
     },
     {
       "type": "application/light",
       "content": {
         "lightType": "directional",
-        "args": [[255, 255, 255], 0.1],
-        "position": [1, 2, 3],
-        "shadow": [50, 4096, 0.1, 1000, 0, 0.2]
+        "args": [[255, 255, 255], 0],
+        "position": [0, 5, 0],
+        "shadow": [50, 10, 0.1, 10, 0, 0.1]
       }
     },
     {
       "type": "application/rendersettings",
       "content": {
         "fog": {
-          "fogType": "exp",
-          "args": [[25, 2, 15], 0.005]
-        },
-        
-        "bloom": {
-          "strength": 0.4,
-          "radius": 0.5,
-          "threshold": 0.8
+          "fogType": "linear",
+          "args": [[0, 5, 10], 50, 350]
         }
       }
     },
+      {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "start_url": "./silk-fountains/twilight-sky/index.js"
+      }, 
     {
       "position": [
         0,
         0,
         0
       ],
-      "start_url": "https://webaverse.github.io/twilight-sky/index.js"
+      "start_url": "./silk-fountains/silk-fountain-trees/index.js"
+    },
+    
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "./silk-fountains/silk-fountains-ground/index.js"
+    },
+
+     {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "./silk-fountains/silk-fountains-tunnels/index.js"
     },
     {
       "position": [
@@ -53,7 +73,7 @@
         0,
         0
       ],
-      "start_url": "https://webaverse.github.io/silk-fountains-trees/index.js"
+      "start_url": "./silk-fountains/silk-fountains-street/"
     },
     {
       "position": [
@@ -61,23 +81,26 @@
         0,
         0
       ],
-      "start_url": "https://webaverse.github.io/silk-fountains-ground/index.js"
+      "start_url": "./silk-fountains/silk-fountains-ruins/index.js"
     },
     {
       "position": [
         0,
-        0,
+        -100.0,
         0
       ],
-      "start_url": "https://webaverse.github.io/silk-fountains-street/"
-    },
-    {
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "start_url": "https://webaverse.github.io/silk-fountains-tunnels/index.js"
+      "start_url": "https://webaverse.github.io/grass/",
+      "components": [
+      {
+        "key": "params",
+        "value": {
+          "sizeX": 500,
+          "sizeZ": 500,
+          "count": 350000,
+          "flat": false
+        }
+      }
+    ]
     }
   ]
 }
